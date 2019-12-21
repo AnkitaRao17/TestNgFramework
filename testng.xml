@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <!-- <parameter name="environment" value="QA"> </parameter>
+    <parameter name="Browser" value="Chrome"> </parameter> -->
+    <!-- <groups>
+    <run>
+   <include name ="smoke"></include>
+   <include name = "sanity"></include>
+  </run>
+  </groups> -->
+    <classes>
+      <class name="MyTestNp.NewTest1"/>
+      <class name="MyTestNp.NewTest"/>
+      <class name="MyTestNp.AnnotationofTestn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
