@@ -91,6 +91,7 @@ public class NewTest {
 		public void test (String user,String password) {
 		System.out.println(user);	
 		System.out.println(password);
+		System.out.println("hii");	
 		}
 
 }
