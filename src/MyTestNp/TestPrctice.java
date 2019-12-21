@@ -59,8 +59,10 @@ public class TestPrctice {
 
 	@Test(dataProvider = "testdata") // data called from above dataprovider
 	public void test(String user, String password) {
+		System.out.println("hello");
 		System.out.println(user);
 		System.out.println(password);
+		System.out.println("hello");
 	}
 
 }
